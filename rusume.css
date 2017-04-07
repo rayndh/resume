@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: "微软雅黑", Arial,Helvetica,sans-serif;
+
+}
+#container{
+    width: 375px;
+
+    /*color: #2dCB70;*/
+
+}
+#header{
+    width: 375px;
+    height: 200px;
+}
+#name{
+    float: left;
+    width: 175px;
+    text-align: center;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+#name h3{
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+#name span{
+    color: gray;
+    font-size: 18px;
+
+}
+#name p{
+    margin-top: 15px;
+}
+
+#photo{
+    float: left;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+#photo .person{
+    position: absolute;
+    left: 10px;
+    top: 87px;;
+}
+#rayn {
+    margin-left: 25px;
+    width: 152px;
+    height: 200px;
+    border-radius: 15%;
+
+}
+#message{
+    width: 375px;
+    height: 330px;
+    background-color: #3a3c40;
+    padding-top: 12px;
+    padding-left: 0px;
+    overflow: hidden;
+}
+.tittle{
+    width: 70px;
+    height: 30px;
+    border: 2px solid  #2dCB70;
+    border-radius: 20%;
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 0px auto;
+    text-align: center;
+}
+#message h4{
+    margin-top: 20px;
+    color: #6be2e8;
+    font-size: 16px;
+    font-weight: bold;
+}
+#message p{
+    color: #a8acb3;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#message .left{
+    width: 175px;
+    height: 300px;
+    float: left;
+    padding-left: 10px;
+}
+#message .right{
+    width: 200px;
+    height: 300px;
+    float: right;
+    padding-left: 5px;
+}
+#add{
+    background-color: #3a3c40;
+    width: 375px;
+    height: 150px;
+    padding-left: 10px;
+    margin-top: -10px;
+}
+#add h4{
+    margin-top: 20px;
+    color: #6be2e8;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#add li{
+    color: #a8acb3;
+    height: 18px;
+    line-height: 18px;
+
+}
+#worksShow{
+    width: 375px;
+    height: 375px;
+
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#worksShow .xxoo{
+   margin-bottom: 10px;
+    color: #2dCB70;
+}
+#worksShow .show{
+    list-style: none;
+    width: 118px;
+    height: 150px;
+    float: left;
+}
+#worksShow .show a{
+    display: inline-block;
+    width: 118px;
+    height: 118px;
+
+}
+#worksShow .show p{
+    text-align: center;
+    color: #a8acb3;
+}
+#worksShow .show:hover{
+    border-bottom: 1px solid greenyellow;
+}
+#contact{
+    padding-top: 10px;
+    background-color: #8fc96a;
+    width: 375px;
+    height: 200px;
+}
+#contact li{
+    margin-top: 18px;
+    height: 20px;
+    margin-left: 10px;
+    line-height: 14px;
+    font-size: 14px;
+
+}
+#contact li span{
+    font-size: 18px;
+    font-weight: bold;
+}
